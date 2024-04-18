@@ -3,7 +3,6 @@ import time
 import pyautogui
 print(pyautogui.size())
 
-
 time.sleep(5)
 pyautogui.moveTo(1000,300,duration=1) #moves in number of pixels in x and y direction along with duration
 # pyautogui.moveRel(500,500,duration=1) #relative mouse movement from the position
