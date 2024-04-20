@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814dffe5-6eba-45fe-9283-6ad16daea443" name="Changes" comment="moved basic commands into seperate testing file">
+    <list default="true" id="814dffe5-6eba-45fe-9283-6ad16daea443" name="Changes" comment="implemented &quot;threading&quot; for responsive UI, but still unable to stop the thread at demand.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tkinter_gui_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_gui_integration.py" afterDir="false" />
     </list>
@@ -46,21 +46,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Immediate testing.executor": "Run",
-    "Python.basic_function.executor": "Run",
-    "Python.jiggler.executor": "Run",
-    "Python.simple_calculator.executor": "Run",
-    "Python.testing_file.executor": "Run",
-    "Python.tkinter_gui_integration.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Immediate testing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jiggler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tkinter_gui_integration.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -109,7 +109,31 @@
       <option name="project" value="LOCAL" />
       <updated>1713459779476</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="more edits">
+      <option name="closed" value="true" />
+      <created>1713607359716</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713607359716</updated>
+    </task>
+    <task id="LOCAL-00006" summary="slider and checkbox in sync working perfectly.">
+      <option name="closed" value="true" />
+      <created>1713621780515</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713621780515</updated>
+    </task>
+    <task id="LOCAL-00007" summary="implemented &quot;threading&quot; for responsive UI, but still unable to stop the thread at demand.">
+      <option name="closed" value="true" />
+      <created>1713638052776</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713638052776</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -118,6 +142,9 @@
     <MESSAGE value="added testing python file" />
     <MESSAGE value="basic layout of or backbone structure of Mouse Jiggler" />
     <MESSAGE value="moved basic commands into seperate testing file" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved basic commands into seperate testing file" />
+    <MESSAGE value="more edits" />
+    <MESSAGE value="slider and checkbox in sync working perfectly." />
+    <MESSAGE value="implemented &quot;threading&quot; for responsive UI, but still unable to stop the thread at demand." />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented &quot;threading&quot; for responsive UI, but still unable to stop the thread at demand." />
   </component>
 </project>
