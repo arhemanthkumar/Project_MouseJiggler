@@ -12,8 +12,8 @@ def enablejiggle():
     if checkbutton_val.get() == True:
         slider.set(10)
 
-    mouse_time = slider_val.get()
-    print(mouse_time)
+    mouse_time = slider.get()
+    # print(mouse_time)
 
 # def jiggling():
 #     time.sleep(mouse_time)
@@ -22,10 +22,13 @@ def enablejiggle():
 #     pyautogui.moveRel(-1, -1)
 
 def sliderfunction(value):
-   if value == 0:
+
+   if slider_val.get() == 0:
        checkbutton_val.set(False)
    else:
        checkbutton_val.set(True)
+   mouse_time = slider.get()
+   print(mouse_time)
 
 
 
@@ -39,6 +42,9 @@ checkbox1.grid(row = 0, column = 1)
 # integrating slider in the bottom
 slider = Scale(root, from_=0, to=60, orient=HORIZONTAL, sliderlength=15, width=15, tickinterval=10, length=270, resolution= 10, command = sliderfunction, variable=slider_val)
 slider.grid(row=1,columnspan=2)
+
+seconds = Label(root, text="seconds")
+seconds.grid(columnspan=2, row=2)
 
 root.geometry("300x150")
 root.title("Mouse Jiggler")
