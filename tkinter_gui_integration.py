@@ -2,6 +2,7 @@ from tkinter import *
 import sys
 import time
 import pyautogui
+import threading
 root = Tk()
 
 checkbutton_val = BooleanVar()
@@ -11,7 +12,7 @@ def enablejiggle():
         slider.set(0)
     if checkbutton_val.get() == True:
         slider.set(10)
-
+        # threading.Thread(target=jiggle, daemon=True).start()
     mouse_time = slider.get()
     # print(mouse_time)
 
@@ -27,8 +28,21 @@ def sliderfunction(value):
        checkbutton_val.set(False)
    else:
        checkbutton_val.set(True)
+       threading.Thread(target=jiggle, daemon=True).start()
    mouse_time = slider.get()
    print(mouse_time)
+
+
+def jiggle():
+    while True:
+       mouse_time = slider.get()
+       if mouse_time > 0:
+           print('inside while loop')
+           time.sleep(mouse_time)
+           pyautogui.moveRel(10, 10)
+           time.sleep(mouse_time)
+           pyautogui.moveRel(-10, -10)
+
 
 
 
