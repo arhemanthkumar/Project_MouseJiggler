@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814dffe5-6eba-45fe-9283-6ad16daea443" name="Changes" comment="implemented &quot;threading&quot; for responsive UI, but still unable to stop the thread at demand.">
+    <list default="true" id="814dffe5-6eba-45fe-9283-6ad16daea443" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter_gui_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_gui_integration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713638052776</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=".">
+      <option name="closed" value="true" />
+      <created>1713638074134</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713638074134</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +152,7 @@
     <MESSAGE value="more edits" />
     <MESSAGE value="slider and checkbox in sync working perfectly." />
     <MESSAGE value="implemented &quot;threading&quot; for responsive UI, but still unable to stop the thread at demand." />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented &quot;threading&quot; for responsive UI, but still unable to stop the thread at demand." />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
