@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814dffe5-6eba-45fe-9283-6ad16daea443" name="Changes" comment="Updated to Version 1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/Project_MouseJiggler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_MouseJiggler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="814dffe5-6eba-45fe-9283-6ad16daea443" name="Changes" comment="Dependencies updated.">
+      <change afterPath="$PROJECT_DIR$/custom_tkinter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons8-mouse-96.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Immediate testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Immediate testing.py" afterDir="false" />
     </list>
@@ -48,22 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Immediate testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basic_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.jiggler.executor&quot;: &quot;Run&quot;,
-    &quot;Python.simple_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testing_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tkinter_gui_integration.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/arhemanthkumar/PycharmProjects/Project_MouseJiggler&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Immediate testing.executor": "Run",
+    "Python.basic_function.executor": "Run",
+    "Python.custom_tkinter.executor": "Run",
+    "Python.jiggler.executor": "Run",
+    "Python.simple_calculator.executor": "Run",
+    "Python.testing_file.executor": "Run",
+    "Python.tkinter_gui_integration.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/arhemanthkumar/PycharmProjects/Project_MouseJiggler",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -160,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714202890340</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Dependencies updated.">
+      <option name="closed" value="true" />
+      <created>1714202913122</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714202913122</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -175,6 +184,7 @@
     <MESSAGE value="." />
     <MESSAGE value="Version 1.0&#10;Working as expected.&#10;Yet to add advanced menu in future versions." />
     <MESSAGE value="Updated to Version 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated to Version 1.0" />
+    <MESSAGE value="Dependencies updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependencies updated." />
   </component>
 </project>
