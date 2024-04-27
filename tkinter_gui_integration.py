@@ -3,6 +3,7 @@ import time
 import pyautogui
 import threading
 root = Tk()
+from PIL import Image, ImageTk
 
 checkbutton_val = BooleanVar()
 slider_val = IntVar()
@@ -45,21 +46,25 @@ def jiggle():
 
 
 # creating a label or field widget using grid method
-mylabel1 = Label(root, text="Enable Jiggle ?", pady=10)
-checkbox1 = Checkbutton(root, padx=50, command=enablejiggle, variable=checkbutton_val)
+mylabel1 = Label(root, text="Enable Jiggle ?", pady=10,padx=10)
+checkbox1 = Checkbutton(root,  command=enablejiggle, variable=checkbutton_val,height=1)
 
-mylabel1.grid(row=0, column=0)
-checkbox1.grid(row=0, column=1)
+mylabel1.grid(row=0, column=0,sticky=W)
+checkbox1.grid(row=0, column=1,sticky=E)
 
 # integrating slider in the bottom
-slider = Scale(root, from_=0, to=60, orient=HORIZONTAL, sliderlength=15, width=15, tickinterval=10, length=270,
+slider = Scale(root, from_=0, to=60, orient=HORIZONTAL, sliderlength=15, width=15, tickinterval=10, length=285,
                resolution=10, command=sliderfunction, variable=slider_val)
-slider.grid(row=1, columnspan=2)
+slider.grid(row=1, column=0, columnspan=2,padx=10)
 
 seconds = Label(root, text="seconds")
 seconds.grid(columnspan=2, row=2)
 
-root.geometry("300x150")
+# ico = Image.open('icon.ico')
+# photo = ImageTk.PhotoImage(ico)
+# root.wm_iconphoto(False, photo)
+
+root.geometry("310x150")
 root.title("Mouse Jiggler")
 root.resizable(False, False)
 root.mainloop()
