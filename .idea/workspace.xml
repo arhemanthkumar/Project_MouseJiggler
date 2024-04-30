@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="814dffe5-6eba-45fe-9283-6ad16daea443" name="Changes" comment="Dependencies updated.">
-      <change afterPath="$PROJECT_DIR$/custom_tkinter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons8-mouse-96.png" afterDir="false" />
+    <list default="true" id="814dffe5-6eba-45fe-9283-6ad16daea443" name="Changes" comment="Improvements update">
+      <change afterPath="$PROJECT_DIR$/build/tkinter_gui_integration/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tkinter_gui_integration/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tkinter_gui_integration/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tkinter_gui_integration/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tkinter_gui_integration/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tkinter_gui_integration/Tree-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tkinter_gui_integration/Tree-01.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tkinter_gui_integration/Tree-02.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tkinter_gui_integration/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tkinter_gui_integration/tkinter_gui_integration.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tkinter_gui_integration/warn-tkinter_gui_integration.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tkinter_gui_integration/xref-tkinter_gui_integration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/tkinter_gui_integration.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tkinter_gui_integration.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project_MouseJiggler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_MouseJiggler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Immediate testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Immediate testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tkinter_gui_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_gui_integration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +50,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/arhemanthkumar/Project_MouseJiggler.git&quot;,
-    &quot;accountId&quot;: &quot;74188065-daec-4e0f-9df1-fd2610394513&quot;
+    &quot;accountId&quot;: &quot;aa9e78eb-ffcd-460a-b02e-4aff4c233587&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -48,23 +64,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Immediate testing.executor": "Run",
-    "Python.basic_function.executor": "Run",
-    "Python.custom_tkinter.executor": "Run",
-    "Python.jiggler.executor": "Run",
-    "Python.simple_calculator.executor": "Run",
-    "Python.testing_file.executor": "Run",
-    "Python.tkinter_gui_integration.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/arhemanthkumar/PycharmProjects/Project_MouseJiggler",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Immediate testing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.custom_tkinter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jiggler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testing_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tkinter_gui_integration.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/arhemanthkumar/PycharmProjects/Project_MouseJiggler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -169,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714202913122</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Improvements update">
+      <option name="closed" value="true" />
+      <created>1714248761262</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714248761262</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,6 +210,7 @@
     <MESSAGE value="Version 1.0&#10;Working as expected.&#10;Yet to add advanced menu in future versions." />
     <MESSAGE value="Updated to Version 1.0" />
     <MESSAGE value="Dependencies updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependencies updated." />
+    <MESSAGE value="Improvements update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improvements update" />
   </component>
 </project>
