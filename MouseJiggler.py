@@ -3,7 +3,7 @@ import time
 import pyautogui
 import threading
 root = Tk()
-from PIL import Image, ImageTk
+# from PIL import Image, ImageTk
 
 checkbutton_val = BooleanVar()
 slider_val = IntVar()
