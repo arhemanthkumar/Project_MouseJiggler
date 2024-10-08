@@ -27,6 +27,7 @@ Here is your little buddy *Mouse Jiggler*, which helps to keep your system activ
 
 
 
+
 ## Features
 
 - Can be run as a python script/file for the systems which do not have admin privileges or superuser permissions.
@@ -48,9 +49,9 @@ Here is your little buddy *Mouse Jiggler*, which helps to keep your system activ
 
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
-[![Static Badge](https://img.shields.io/badge/Python-orange)](https://www.python.org/)
+[![Static Badge](https://img.shields.io/badge/Python-green)](https://www.python.org/)
 
-[![Static Badge](https://img.shields.io/badge/PyAutoGUI-grey)
+[![Static Badge](https://img.shields.io/badge/PyAutoGUI-orange)
 ](https://pyautogui.readthedocs.io/en/latest/#)
 
 [![Static Badge](https://img.shields.io/badge/TKinter-blue)](https://docs.python.org/3/library/tkinter.html)
@@ -59,3 +60,40 @@ Here is your little buddy *Mouse Jiggler*, which helps to keep your system activ
 
 
 
+
+## Installation
+
+Create a folder to clone the MouseJiggler project repository.
+
+\
+Once inside the folder of your choice, you can download the zip folder from the repository or you can clone the repository using:
+```bash
+git clone https://github.com/arhemanthkumar/Project_MouseJiggler.git
+```
+Now this will be your working directory, and further commands are valid inside this directory only.
+
+\
+Next step is to install the required libraries and dependencies by running:
+```bash
+pip install -r requirements.txt
+```
+
+\
+Now you can double click __MouseJiggler.exe__ can directly run it.
+
+\
+Or the MouseJiggler can be launched as a python file/script by:
+- For Windows Users -->
+```bash
+python MouseJiggler.py
+```
+- For Linux / Mac Users -->
+```bash
+python3 MouseJiggler.py
+```
+
+(replace with python2 for older systems.)
+
+
+
+## Thank you
